@@ -56,7 +56,7 @@ uvicorn main:app --reload
 # 🧮 Handwritten Math Expression Evaluator
 
 A web-based AI-powered tool to recognize and solve handwritten mathematical expressions using FastAPI (backend) and React (frontend).
-
+```
 ---
 
 ## 🌐 Frontend Setup
