@@ -73,3 +73,19 @@ echo "VITE_API_URL=http://127.0.0.1:8000" > .env  # Or your deployed API URL
 
 # 4. Start the app
 npm run dev
+```
+---
+
+## 🧪 Usage
+
+1. **Draw a math expression** on the canvas using your mouse (e.g. `2x + 3 = 7`).
+2. **Press the Run button.**
+3. The AI:
+   - Extracts the handwritten expression
+   - Evaluates it
+   - Renders the result in **LaTeX format** dynamically.
+
+### 🛠 You can also:
+- 🎨 Use the **color swatches** to change pen color.
+- 🧼 Use the **Erase** button to toggle to eraser mode.
+- 🔄 Use the **Reset** button to clear the canvas and output.
