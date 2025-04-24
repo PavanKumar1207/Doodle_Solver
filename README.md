@@ -52,3 +52,24 @@ export GOOGLE_API_KEY=your_api_key_here  # Or use a .env file
 
 # 5. Run FastAPI server
 uvicorn main:app --reload
+
+# 🧮 Handwritten Math Expression Evaluator
+
+A web-based AI-powered tool to recognize and solve handwritten mathematical expressions using FastAPI (backend) and React (frontend).
+
+---
+
+## 🌐 Frontend Setup
+
+```bash
+# 1. Navigate to the frontend directory
+cd calc-fe-main  # Or wherever your frontend code lives
+
+# 2. Install dependencies
+npm install
+
+# 3. Create `.env` file
+echo "VITE_API_URL=http://127.0.0.1:8000" > .env  # Or your deployed API URL
+
+# 4. Start the app
+npm run dev
