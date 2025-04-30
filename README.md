@@ -89,3 +89,26 @@ npm run dev
 - 🎨 Use the **color swatches** to change pen color.
 - 🧼 Use the **Erase** button to toggle to eraser mode.
 - 🔄 Use the **Reset** button to clear the canvas and output.
+
+### 🛠 Environment Variables:
+- Backend expects the following:
+   ```bash
+   GOOGLE_API_KEY=your_google_generative_ai_key
+   ```
+- Frontend expects:
+   ```bash
+   VITE_API_URL=http://localhost:8000
+   ```
+### 📁 Project Structure
+```bash
+calculator-app/
+├── calc-be-main/         # FastAPI backend
+│   ├── main.py
+│   ├── utils/
+│   └── ...
+├── calc-fe-main/         # React frontend
+│   ├── src/
+│   ├── public/
+│   └── ...
+└── README.md
+```
