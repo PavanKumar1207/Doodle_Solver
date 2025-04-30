@@ -100,7 +100,7 @@ npm run dev
    VITE_API_URL=http://localhost:8000
    ```
 ### 📁 Project Structure
-
+```bash
 calculator-app/
 ├── calc-be-main/         # FastAPI backend
 │   ├── main.py
@@ -111,4 +111,9 @@ calculator-app/
 │   ├── public/
 │   └── ...
 └── README.md
+```
+### 📸 Screenshots:
 
+
+📜 License
+This project is licensed under the MIT License.
